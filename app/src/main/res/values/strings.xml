@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Notepad</string>
+    <string name="title_activity_notepad_list">Notepad Application</string>
+
+    <string name="titleEditNote">Note Edit</string>
+    <string name="menu_insert">Create noteActions</string>
+    <string name="newNote">Create noteActions</string>
+    <string name="save">Save</string>
+    <string name="undo">Undo changes</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="sampleItem">Sample item</string>
+    <string name="addImage">Add image</string>
+    <string name="listEmpty">List is empty</string>
+    <string name="noteDelete">Delete</string>
+    <string name="contextDuplicate">Duplicate</string>
+    <string name="dialogDeleteNote">Delete noteActions?</string>
+    <string name="noteEdit">Edit notes</string>
+    <string name="dialogRevertChanges">Revert all changes since last save?</string>
+    <string name="dialogDeleteSelected">Delete selected notes?</string>
+	<string name="shareEntityName">Note</string>
+	<string name="sharePromptText">Share selected notes</string>
+	<string name="NoteDeletedMsg">Notepad is deleted</string>
+	<string name="NoteSavedMsg">Notepad is saved!</string>
+
+</resources>
