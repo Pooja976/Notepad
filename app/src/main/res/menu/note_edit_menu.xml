@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/saveItem"
+        android:title="@string/save"
+        app:showAsAction="always"
+        android:icon="@drawable/content_save"
+        android:orderInCategory="2">
+    </item>
+
+    <item
+        android:id="@+id/undoChanges"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="5"
+        android:icon="@drawable/content_undo">
+    </item>
+
+    <item
+        android:id="@+id/deleteItem"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="4"
+        android:icon="@drawable/content_discard">
+    </item>
+
+    <item
+        android:id="@+id/addImage"
+        android:title="@string/addImage"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3">
+    </item>
+
+    <item
+        android:id="@+id/shareItem"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
+        android:icon="@drawable/share">
+    </item>
+
+</menu>
